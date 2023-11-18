@@ -12,9 +12,9 @@ function handlebarsOverride(options) {
 }
 
 export default defineConfig({
-  base: "/Vite3UI/",
+  base: "/FireMoney/",
   build: {
-    outDir: "Vite3UI"
+    outDir: "FireMoney",
   },
   plugins: [
     handlebarsOverride({
